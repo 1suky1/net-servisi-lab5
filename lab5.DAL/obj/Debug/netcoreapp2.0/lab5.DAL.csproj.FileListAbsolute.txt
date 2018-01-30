@@ -1,0 +1,9 @@
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\bin\Debug\netcoreapp2.0\lab5.DAL.deps.json
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\bin\Debug\netcoreapp2.0\lab5.DAL.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\obj\Debug\netcoreapp2.0\lab5.DAL.csprojResolveAssemblyReference.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\obj\Debug\netcoreapp2.0\lab5.DAL.csproj.CoreCompileInputs.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\obj\Debug\netcoreapp2.0\lab5.DAL.AssemblyInfoInputs.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\obj\Debug\netcoreapp2.0\lab5.DAL.AssemblyInfo.cs
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\bin\Debug\netcoreapp2.0\lab5.DAL.pdb
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\obj\Debug\netcoreapp2.0\lab5.DAL.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.DAL\obj\Debug\netcoreapp2.0\lab5.DAL.pdb

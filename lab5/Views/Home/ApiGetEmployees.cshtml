@@ -1,0 +1,74 @@
+﻿
+@{
+	ViewData["Title"] = "ApiStuff";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<h2>ApiStuff lab3 Employees</h2>
+
+<div>
+	<input class="input-sm" type="text" id="query"/>
+	<button class="btn btn-default" id="button" onclick="button_click()">Search</button>
+</div>
+<div>
+	<table class="table table-bordered" id="TableEmployees">
+		<tr>
+			<th>ID</th>
+			<th>National ID number</th>
+			<th>login id</th>
+			<th>Job title</th>
+			<th>Gender</th>
+		</tr>
+	</table>
+</div>
+
+
+<script>
+	function sendAjax(link) {
+		$.ajax({
+			type: "GET",
+			url: link,
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
+			success: function (data) {
+				$('#TableAddress > tbody').html("");
+				$('#TableAddress').append("<tbody>");
+				$.each(data, function (i, item) {
+					var rows = "<tr>" +
+						"<td id='id'>" + item.businessEntityId + "</td>" +
+						"<td id='nID'>" + item.nationalIdnumber + "</td>" +
+						"<td id='login'>" + item.loginId + "</td>" +
+						"<td id='job'>" + item.jobTitle + "</td>" +
+						"<td id='gender'>" + item.gender + "</td>" +
+						"</tr>";
+					$('#TableEmployees').append(rows);
+				});
+				$('#TableAddress').append("</tbody>");
+				console.log(data);
+			},
+			failure: function (data) {
+				alert(data.responseText);
+				console.log(data);
+			},
+			error: function (data) {
+				alert(data.responseText);
+				console.log(data);
+			}
+		});
+	}
+
+	$(document).ready(function () {
+		//sendAjax("/api/Addresses");
+
+		
+	});
+
+	function button_click() {
+		sendAjax("/api/Employees?query=" + $('#query').val());
+
+	};
+
+	
+
+</script>
+

@@ -1,0 +1,77 @@
+﻿
+@{
+	ViewData["Title"] = "ApiStuff";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<h2>ApiStuff lab3</h2>
+
+<div>
+	<input class="input-sm" type="text" name="AddressQuery" id="query"/>
+	<button class="btn btn-default" id="button" onclick="button_click()">Search</button>
+</div>
+<div>
+	<table class="table table-bordered" id="TableAddress">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Address Line 1</th>
+				<th>rowguid</th>
+				<th>City</th>
+				<th>Postal Code</th>
+			</tr>
+		</thead>	
+	</table>
+</div>
+
+
+<script>
+	function sendAjax(link) {
+		$.ajax({
+			type: "GET",
+			//url: "/api/Addresses?query=" + $('query').text(),
+			url: link,
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
+			success: function (data) {
+				$('#TableAddress > tbody').html("");
+				$('#TableAddress').append("<tbody>");
+				$.each(data, function (i, item) {
+					var rows = "<tr>" +
+						"<td id='id'>" + item.addressId + "</td>" +
+						"<td id='line1'>" + item.addressLine1 + "</td>" +
+						"<td id='line2'>" + item.rowguid + "</td>" +
+						"<td id='city'>" + item.city + "</td>" +
+						"<td id='code'>" + item.postalCode + "</td>" +
+						"</tr>";
+					$('#TableAddress').append(rows);
+				});
+				$('#TableAddress').append("</tbody>");
+				console.log(data);
+			},
+			failure: function (data) {
+				alert(data.responseText);
+				console.log(data);
+			},
+			error: function (data) {
+				alert(data.responseText);
+				console.log(data);
+			}
+		});
+	}
+
+	$(document).ready(function () {
+		//sendAjax("/api/Addresses");
+
+		
+	});
+
+	function button_click() {
+		sendAjax("/api/Addresses?query=" + $('#query').val());
+
+	};
+
+	
+
+</script>
+

@@ -1,0 +1,14 @@
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\bin\Debug\netcoreapp2.0\lab5.GAuth.deps.json
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\bin\Debug\netcoreapp2.0\lab5.GAuth.runtimeconfig.json
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\bin\Debug\netcoreapp2.0\lab5.GAuth.runtimeconfig.dev.json
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\bin\Debug\netcoreapp2.0\lab5.GAuth.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\bin\Debug\netcoreapp2.0\lab5.GAuth.pdb
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\obj\Debug\netcoreapp2.0\lab5.GAuth.csproj.CoreCompileInputs.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\obj\Debug\netcoreapp2.0\lab5.GAuth.AssemblyInfoInputs.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\obj\Debug\netcoreapp2.0\lab5.GAuth.AssemblyInfo.cs
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\obj\Debug\netcoreapp2.0\lab5.GAuth.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\obj\Debug\netcoreapp2.0\lab5.GAuth.pdb
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\bin\Debug\netcoreapp2.0\lab5.DAL.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\bin\Debug\netcoreapp2.0\lab5.DAL.pdb
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\obj\Debug\netcoreapp2.0\lab5.GAuth.csprojResolveAssemblyReference.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.GAuth\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

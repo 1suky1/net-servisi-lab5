@@ -1,0 +1,13 @@
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\bin\Debug\netcoreapp2.0\lab5.JWTApi.deps.json
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\bin\Debug\netcoreapp2.0\lab5.JWTApi.runtimeconfig.json
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\bin\Debug\netcoreapp2.0\lab5.JWTApi.runtimeconfig.dev.json
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\bin\Debug\netcoreapp2.0\lab5.JWTApi.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\bin\Debug\netcoreapp2.0\lab5.DAL.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\bin\Debug\netcoreapp2.0\lab5.DAL.pdb
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\obj\Debug\netcoreapp2.0\lab5.JWTApi.csprojResolveAssemblyReference.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\obj\Debug\netcoreapp2.0\lab5.JWTApi.csproj.CoreCompileInputs.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\obj\Debug\netcoreapp2.0\lab5.JWTApi.AssemblyInfoInputs.cache
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\obj\Debug\netcoreapp2.0\lab5.JWTApi.AssemblyInfo.cs
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\bin\Debug\netcoreapp2.0\lab5.JWTApi.pdb
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\obj\Debug\netcoreapp2.0\lab5.JWTApi.dll
+C:\Users\msutl\Desktop\NET-SERVISI\zadnjilab\lab5\lab5.JWTApi\obj\Debug\netcoreapp2.0\lab5.JWTApi.pdb
